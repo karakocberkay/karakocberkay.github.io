@@ -1,0 +1,37 @@
+.header, .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.btn {
+    border-color: white;
+    background-color: cadetblue;
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    transition: all 1s ease;
+}
+
+.btn:hover {
+    border-color: white;
+    background-color: cornflowerblue;
+    transform: scale(1.2);
+}
+
+h1 {
+    font-size: 20em;
+    color: cadetblue;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+h1:hover {
+    cursor: default;
+    transform: scale(1.1);
+    color: cornflowerblue;
+}
+
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: fill;
+}
